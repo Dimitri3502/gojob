@@ -1,9 +1,9 @@
 
-function func(){
-  return true;
+function sum(a, b) {
+  return a + b;
 }
 
 
 module.exports = {
-  func
+  sum
 };
