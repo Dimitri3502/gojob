@@ -1,0 +1,39 @@
+# Lock file of npm or yarn, choose one!
+package-lock.json
+#yarn.lock
+
+# Environment variables
+/.env
+
+# Generated files
+/dist
+
+# vscode config. For a real project, you may want to update this to share more configuration with your team
+.vscode/*
+!.vscode/launch.json
+.idea
+
+# vscode generated typings
+typings
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Test reports
+tests/test-reports
+
+
+# backup files
+*.bak
