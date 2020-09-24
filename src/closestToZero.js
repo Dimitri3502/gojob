@@ -1,18 +1,18 @@
 function closestToZero(integerArray) {
-    let closestToZero = 0;
+    let result = 0;
 
     if (integerArray && Array.isArray(integerArray) && integerArray.length > 0) {
-        let res = integerArray[0]
+        let current = integerArray[0]
         integerArray.forEach((element) => {
-            if (Math.abs(res) > Math.abs(element)) {
-                res = element;
-            } else if (Math.abs(res) === Math.abs(element)) {
-                res = element < 0 ? res : element;
+            if (Math.abs(current) > Math.abs(element)) {
+                current = element;
+            } else if (Math.abs(current) === Math.abs(element)) {
+                current = element < 0 ? current : element;
             }
         });
-        closestToZero = res;
+        result = current;
     }
-    return closestToZero;
+    return result;
 }
 
 module.exports = {
