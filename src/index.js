@@ -1,5 +1,5 @@
-const functions = require('./functions');
+const functions = require('./closestToZero');
 
 (function () {
-  console.log(functions.sum(1,2));
+  console.log(functions.closestToZero([1,2]));
 })();
